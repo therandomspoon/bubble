@@ -37,52 +37,12 @@
   #product h1 {
     margin: 20px;
   }
-  #hero-title {
-    font-size: 72px;
-    text-align: center;
-    margin: 60px 20px 40px 20px;
-    font-weight: 700;
-  }
-  .rotating-word {
-    display: inline-block;
-    position: relative;
-    height: 1.2em;
-    width: 200px;
-    vertical-align: bottom;
-    overflow: hidden;
-  }
-  .rotating-word span {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    animation: rotateWords 4s infinite;
-  }
-  .rotating-word span:nth-child(2) {
-    animation-delay: 2s;
-  }
-  @keyframes rotateWords {
-    0%, 45% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-    50%, 95% {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(-100%);
-      opacity: 1;
-    }
-  }
 </style>
 <body>
   <div id="header">
     <h1>Bubble - Get ready for something big</h1>
   </div>
-  <div id="hero-title">
-    Team Communication, Done <span class="rotating-word"><span>Right.</span><span>Reliably.</span></span>
-  </div>
+
   <div id="product">
     <h1>Our service</h1>
   </div>
