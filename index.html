@@ -39,6 +39,45 @@
   #product h1 {
     margin: 20px;
   }
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  th, td {
+    transition: background-color 0.5s ease;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+  }
+  tr:last-child td {
+    border-bottom: none;
+  }
+  td:hover{
+    background-color: #158dee !important;
+    color: white;
+  }
+  #best {
+    background-color: #c6efce;
+  }
+  #worst {
+    background-color: #ffc7ce;
+  }
+  #meh {
+    background-color: #ffeb9c;
+  }
+  #bubble {
+    background-color: #158dee;
+    color: white;
+  }
 </style>
 <body>
   <div id="header">
