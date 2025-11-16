@@ -21,20 +21,21 @@
     color: #158dee;
     margin: 0;
   }
-
+  td {
+    font-family: 'Quicksand', sans-serif;
+    color: #158dee;
+  }
   #header {
     height: 50px;
     border-bottom: 2px solid #158dee;
     padding: 10px;
     margin: 32px;
    }
-
   #header h1 {
     margin: 0;
     float: left;
     font-size: 48px;
   }
-
   #product h1 {
     margin: 20px;
   }
@@ -42,7 +43,6 @@
 <body>
   <div id="header">
     <h1>Bubble - Get ready for something big</h1>
-    <p>Bubble is a simple, efficient communication platform built for organisations who want clarity and speed without the complexity and overwhelming costs. Designed to be a lightweight alternative to tools like Microsoft Teams and Slack, Bubble focuses on clean messaging, fast loading times, and a bloat-free interface.</p>
   </div>
   <div id="slogan">
     <video autoplay loop muted playsinline>
@@ -52,6 +52,37 @@
   </div>
   <div id="product">
     <h1>Our service</h1>
-    <p>Bubble is a </p>
+    <p>Bubble is a simple, efficient communication platform built for organisations who want clarity and speed without the complexity and overwhelming costs. Designed to be a lightweight alternative to tools like Microsoft Teams and Slack, Bubble focuses on clean messaging, fast loading times, and a bloat-free interface.</p>
   </div>
+  <div id="thetable">
+    <h1 style="text-align: center;">Why use bubble?</h1>
+    <h2 style="text-align: center;">Bubble vs Teams vs Slack</h2>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Cost per user</th>
+        <th>Self-Hostable</th>
+        <th>Free Plan</th>
+      </tr>
+      <tr>
+        <td id="bubble">Bubble</td>
+        <td id="best">Free</td>
+        <td id="best">Yes</td>
+        <td id="best">Yes</td>
+      </tr>
+      <tr>
+        <td>Teams</td>
+          <td id="meh">£3.10</td>
+          <td id="worst">No</td>
+          <td id="worst">Limited</td>
+      </tr>
+      <tr>
+        <td>Slack</td>
+          <td id="worst">£12</td>
+          <td id="worst">No</td>
+          <td id="worst">Limited</td>
+      </tr>
+    </table>
+</body>
+</html>
 </body>
